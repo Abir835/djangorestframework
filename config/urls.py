@@ -6,4 +6,5 @@ urlpatterns = [
     path('', include('books.urls')),
     path('api/', include('api.urls')),
     path('todos/api/', include('todos.urls')),
+    path('posts/api/', include('posts.urls')),
 ]

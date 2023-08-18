@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     'books.apps.BooksConfig',
     'api.apps.ApiConfig',
     'todos.apps.TodosConfig',
+    'posts.apps.PostsConfig',
 
     # 3rd party
     'rest_framework',
@@ -48,6 +49,7 @@ INSTALLED_APPS = [
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.AllowAny',
+        # 'rest_framework.permissions.IsAuthenticated',
     ]
 }
 
